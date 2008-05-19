@@ -1,14 +1,13 @@
 (defpackage :cl-random-indexing
   (:use :cl)
   (:export :concept
-           :add-context
-           :+context
+           :+concept
            :context
-           :make-context-vector
+           :add-context
            :k
            :d
-           :simple-ri
-           :context-space
+           :in-memory-ri
+           :concept-space
            :cosine-similarity
            :map-ngram
            :do-ngram))
