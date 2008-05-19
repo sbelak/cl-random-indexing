@@ -9,10 +9,10 @@
   :name "cl-random-indexing"
   :description "Random indexing library."
   :author "Simon Belak"
-  :version "0.1"
+  :version "0.2"
   :licence "MIT"
   :serial t
   :components ((:file "packages")
                (:file "utilities")
                (:file "random-indexing")
-               (:file "simple-ri")))
+               (:file "in-memory-ri")))
